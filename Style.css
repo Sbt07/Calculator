@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #ffffff;
+    flex: content;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    /* Semi-transparent background */
+    color: white;
+}
+/* Add your CSS styles here */
+
+/* Style for the heading with a solid background */
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    background-color: #fae9ea; /* Background color */
+    color: #f33d49; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-flex; /* Make the background take the width of the text */
+}
+
+.calculator{
+    margin-top: 20px;
+    border: 1px solid #717377;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #000000;
+}
+
+input::placeholder{
+    color: #080808;
+}
+
+button{
+    border: none;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 50%;
+    background: transparent;
+    color: #000000;
+    font-size: 25px;
+    box-shadow: -8px -8px 15px rgba(253, 253, 253, 0.617);
+    cursor: pointer;
+    background-color: #fae9ea;
+}
+
+.eqlbtn{
+    background-color: #ef848b;
+    font-weight: 500;
+}
+
+.op{
+    color: #cd2732;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 5px;
+
+}
+
+.opi{
+    color: #cd2732;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.eqlbtn:hover{
+    background-color: #ee414c;
+}
+
+button:hover{
+    background-color: #f3b4b7;
+}
+
+@media (max-width: 50em) {
+    button{
+        border: none;
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        border-radius: 50%;
+        background: transparent;
+        color: #000000;
+        font-size: 25px;
+        box-shadow: -8px -8px 15px rgba(253, 253, 253, 0.617);
+        cursor: pointer;
+        background-color: #fae9ea;
+    }  
+    .calculator{
+        border: 1px solid #717377;
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        border-radius: 16px;
+        background: transparent;
+        box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+    }
+    input{
+        width: 280px;
+        border: none;
+        padding: 24px;
+        margin: 10px;
+        background: transparent;
+        box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+        font-size: 35px;
+        text-align: right;
+        cursor: pointer;
+        color: #000000;
+    }
+    h1 {
+        font-size: 28px;
+        background-color: #fae9ea; /* Background color */
+        color: #f33d49; /* Text color */
+        padding: 10px 20px; /* Padding around the text */
+        border-radius: 5px; /* Rounded corners */
+        display: inline-flex; /* Make the background take the width of the text */
+    }
+}
