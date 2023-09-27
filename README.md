@@ -1,5 +1,3 @@
-## Calculator
-
 ## Overview
 
 The JavaScript Calculator is a basic web-based calculator application that allows users to perform arithmetic operations such as addition, subtraction, multiplication, and division. It is built using HTML for the user interface, CSS for styling, and JavaScript for handling the calculations.
